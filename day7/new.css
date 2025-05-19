@@ -1,0 +1,120 @@
+ body {
+      background-image: url(img/WhatsApp\ Image\ 2025-05-12\ at\ 11.36.18_43da48d6.jpg);
+       background-position: center;
+       
+      color: #fff;
+
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      padding-top: 10px;
+      
+    }
+    .left {
+      max-width: 500px;
+      margin-left: 25px;
+    }
+    .main-title {
+      font-size: 3rem;
+      font-weight: 700;
+      
+    }
+    .subtitle {
+      font-size: 2.2rem;
+      font-weight: 400;
+      color: #bdbdbd;
+      margin-bottom: 33px;
+      -webkit-text-stroke: 0.5px white ;
+      color: transparent;
+    }
+    .desc {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #bdbdbd;
+      margin-bottom: 40px;
+    }
+    .experience {
+      display: flex;
+      align-items: center;
+      margin-bottom: 70px;
+    }
+    .exp-circle {
+      background: #d32f2f;
+      color: #fff;
+      border-radius: 50%;
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-right: 18px;
+    }
+    .exp-text {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .photographer-img {
+      width: 550px;
+      height: 450px;
+      background-image: url(img/man].png);
+      background-size: cover;
+      background-position:bottom;
+       bottom:0%;
+       padding: 10px;
+       padding-top: 250px;
+       margin-right: 70px;
+    }
+    .right {
+      max-width: 340px;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 8px;
+    }
+    .stat-block {
+      margin-bottom: 50px;
+    }
+    .stat-number {
+      font-size: 2.7rem;
+      font-weight: 700;
+      color: #fff;
+      display: inline-block;
+    }
+    .stat-label {
+      font-size: 1.1rem;
+      color: #bdbdbd;
+      font-weight: 500;
+      letter-spacing: 1px;
+      display: inline;
+    }
+    
+    .stat-line {
+      position: relative;
+      height: 2px;
+      background: #333;
+      width: 100%;
+      margin: 8px 0 0 0;
+    }
+    
+    .stat-line::before{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 2rem;
+      border:none;
+      height: 2px;
+      content:"" ;
+      background-color: #d32f2f;
+    }
